@@ -49,7 +49,7 @@ const TopProducts = () => {
           </p>
         </div>
         {/* Body section */}
-        <div className="grid grid-cols-1  sm:grid-cols-2  md:grid-cols-3 gap-2 md:gap-5 place-items-center">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-[4.5rem] place-items-center">
           {ProductData.map((data) => (
             <div
               key={data.id}
