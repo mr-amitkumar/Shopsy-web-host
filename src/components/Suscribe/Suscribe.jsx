@@ -52,7 +52,7 @@ const Suscribe = () => {
           />
           <button
             onClick={handleSubmit}
-            data-aos="fade-up"
+            data-aos="zoom-in"
             data-aos-delay="200"
             className="rounded-md bg-blue-600 py-2 px-4 font-medium text-white mt-2 sm:mt-0"
           >
