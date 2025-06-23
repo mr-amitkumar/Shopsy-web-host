@@ -14,7 +14,9 @@ const Banner = () => {
             <img
               src={BannerImg}
               alt="Banner"
-              className="max-w-[400px] sm:max-w[300px] sm:w-[250px] sm:h-[200px] md:w-[300px] md:h-[200px] mx-auto shadow-xl object-cover rounded-lg"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              className="max-w-[300px] sm:max-w[300px] sm:w-[250px] sm:h-[200px] md:w-[300px] md:h-[200px] mx-auto shadow-xl object-cover rounded-lg"
             />
           </div>
 
