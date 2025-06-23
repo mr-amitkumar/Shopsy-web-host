@@ -30,8 +30,7 @@ const Suscribe = () => {
             name="email"
             id="email"
             autoComplete="off"
-          data-aos="fade-right"
-            data-aos-delay="100"    
+          data-aos="fade-right"    
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email"
@@ -39,7 +38,6 @@ const Suscribe = () => {
           />
           <button
           data-aos="fade-up"
-            data-aos-delay="100"
             onClick={handleSubmit}
             className="rounded-md bg-blue-600 py-2 px-4 font-medium text-white"
           >
