@@ -95,8 +95,8 @@ const Product = () => {
           data-aos="fade-up"
           data-aos-delay="100"
           className="flex items-center justify-center mt-10">
-            <button className="bg-primary py-1 px-4 rounded-full text-white hover:text-black duration-300">
-              see all Product
+            <button className="bg-primary py-1 px-4 rounded-md text-white hover:text-black duration-300">
+              see all product
             </button>
           </div>
         </div>

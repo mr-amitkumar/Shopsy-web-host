@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 import TopProducts from "./components/TopProducts/TopProducts";
 import Banner from "./components/Banner/Banner";
+import Suscribe from "./components/Suscribe/Suscribe";
 const App = () => {
 
 useEffect(()=>{
@@ -25,6 +26,7 @@ useEffect(()=>{
       <Product />
       <TopProducts />
       <Banner />
+      <Suscribe />
     </div>
   );
 };
