@@ -35,7 +35,7 @@ const Suscribe = () => {
           />
           <button
             onClick={handleSubmit}
-            className="rounded-md bg-primary py-2 px-4 font-medium text-white"
+            className="rounded-md bg-blue-600 py-2 px-4 font-medium text-white"
           >
             Subscribe
           </button>
