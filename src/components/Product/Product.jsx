@@ -24,7 +24,7 @@ const ProductsData = [
   {
     id: 3,
     img: img3,
-    title: "Googles",
+    title: "Women-Kurti",
     ratting: 4.7,
     author: "brown",
     aosDelay: "400",
